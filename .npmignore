@@ -1,0 +1,4 @@
+Readme.ko.md
+node_modules/*
+test/*.xl*
+*.log

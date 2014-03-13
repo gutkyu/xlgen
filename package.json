@@ -1,0 +1,27 @@
+{
+  "name": "xlgen",
+  "version": "0.1.0",
+  "description": "node.js's module to generate Microsoft Excel 97 ~ 2003 File(.xls)",
+  "main": "./lib/xlgen.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gutkyu/xlgen"
+  },
+  "keywords": [
+    "excel",
+    "xls",
+	"node.js",
+	"nodejs"
+  ],
+  "author": "Sankyu Jung",
+  "license": "Mit",
+  "bugs": {
+    "url": "https://github.com/gutkyu/xlgen/issues"
+  }
+}
