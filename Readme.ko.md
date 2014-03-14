@@ -28,4 +28,4 @@ Excel 97-2003 파일(.xls)을 생성하는 node.js 모듈
     });
 
 ## License
-Mit
+MIT

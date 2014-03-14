@@ -20,7 +20,7 @@
 	"nodejs"
   ],
   "author": "Sankyu Jung",
-  "license": "Mit",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/gutkyu/xlgen/issues"
   }
