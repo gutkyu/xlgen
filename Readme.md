@@ -24,6 +24,3 @@ node.js's module to generate Microsoft Excel 97 ~ 2003 File(.xls)
         if(err) console.log(err.name, err.message);
         else console.log('complete');
     });
-
-## License
-MIT
