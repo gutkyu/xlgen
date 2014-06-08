@@ -56,7 +56,7 @@ node.js's module to generate Microsoft Excel 97 ~ 2003 File(.xls)
       after function 'end' has been called, cannot use xlg object again.  
       callback(err) : call this after ending a flush  
          
- * Sheet class  
+### Sheet class  
    * cell( rowIndex, colIndex, value, [format])  
       input value into cell.  
       rowIndex , colIndex: zero-based index  
