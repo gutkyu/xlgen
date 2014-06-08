@@ -60,7 +60,7 @@ node.js's module to generate Microsoft Excel 97 ~ 2003 File(.xls)
    * cell( rowIndex, colIndex, value, [format])  
       input value into cell.  
       rowIndex , colIndex: zero-based index  
-      value : allow a Number, String, Date Type' value  
+      value : allow a Number, String, Date Type's value  
       format : *optional*, Format object added by addFormat function  
              
 ## Example  
