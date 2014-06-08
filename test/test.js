@@ -11,7 +11,7 @@ var custfmtDate = xlg.addFormat('0.0000E+00');
 var sht = xlg.addSheet('Sheet1');
 //var sht = xlg.addSheet('시트1');
 
-console.log(xl.formatStrings)
+console.log(xl.formatStrings);//print all standard format strings
 
 try{
     sht.cell(0, 1, 1);
@@ -25,7 +25,7 @@ try{
     sht.cell(9, 4, new Date, fmtDate2);
     sht.cell(10, 4, 9999,custfmtDate);
 }catch(e){
-    console.log(err.name, e.message);
+    console.log(e.name, e.message);
 }
 
 xlg.end(function(err){
