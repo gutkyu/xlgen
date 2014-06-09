@@ -100,3 +100,9 @@ xlg.end(function(err){
    else console.log('complete');
 });
 ```
+
+## References
+  [[MS-XLS]: Excel Binary File Format (.xls) Structure](http://msdn.microsoft.com/en-us/library/cc313154(v=office.14).aspx)
+
+## License
+MIT
