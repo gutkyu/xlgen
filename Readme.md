@@ -66,7 +66,7 @@ node.js's module to generate Microsoft Excel 97 ~ 2003 File(.xls)
 ## Example  
 
 ```js
-var xl = require('../lib/xlgen');
+var xl = require('xlgen');
 var xlg = xl.createXLGen('./test.xls');
 
 //register formats
