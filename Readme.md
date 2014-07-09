@@ -1,22 +1,22 @@
 # XLGen
-node.js's module to generate Microsoft Excel 97 ~ 2003 File(.xls)
+node.js's module to generate Microsoft Excel™ 97 ~ 2003 File(.xls)
 
 ## Features
 *  Excel 97 ~ 2003 File Format
 *  pure javascript on node.js
 
 ## Changelog
-### 0.2.2
-* fixed 
+### v0.2.2
+* fixed issue#2 
   Unable to create more than one sheet in a workbook
 
-### 0.2.1
+### v0.2.1
 * added support for date - ivantodorovich  
   convert javascript date value to excel raw value(number)
 * added support number and date formats  
 * modified to overwrite a cell value  
 
-### 0.1.0  
+### v0.1.0  
 * first release
 
 ## API
