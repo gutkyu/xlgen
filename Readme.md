@@ -7,7 +7,7 @@ node.js's module to generate Microsoft Excel™ 97 ~ 2003 File(.xls)
 
 ## Changelog
 ### v0.2.2
-* fixed issue#2 
+* fixed issue#2  
   Unable to create more than one sheet in a workbook
 
 ### v0.2.1
