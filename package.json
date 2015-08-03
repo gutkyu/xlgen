@@ -1,6 +1,6 @@
 {
   "name": "xlgen",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "description": "node.js's module to generate Microsoft Excel 97 ~ 2003 File(.xls)",
   "main": "./lib/xlgen.js",
   "directories": {
