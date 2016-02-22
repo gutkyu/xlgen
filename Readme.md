@@ -2,10 +2,15 @@
 node.js's module to generate Microsoft Excel™ 97 ~ 2003 File(.xls)
 
 ## Features
-*  Excel 97 ~ 2003 File Format
+*  Excel 97 ~ 2003 File Format(.xls)
 *  pure javascript on node.js
+*  lightweight javascript module
 
 ## Changelog
+### v0.2.3
+* fixed a bug
+  Sometimes, When only string values fill into cells Excel appear it in the incorrect order 
+
 ### v0.2.2
 * fixed issue#2  
   Unable to create more than one sheet in a workbook
