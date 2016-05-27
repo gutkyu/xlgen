@@ -28,7 +28,7 @@ try{
     sht2.cell(9, 4, new Date, fmtDate2);
     
 }catch(e){
-    console.log(e.name, e.message);
+    return console.log(e.name, e.message);
 }
 
 xlg.end(function(err){

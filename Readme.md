@@ -111,7 +111,7 @@ try{
    sht.cell(9, 4, new Date, fmtDate2);
    sht.cell(10, 4, 9999, custfmtDate);
 }catch(e){
-   console.log(e.name, e.message);
+   return console.log(e.name, e.message);
 }
 
 xlg.end(function(err){
