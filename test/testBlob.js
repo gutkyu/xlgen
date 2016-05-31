@@ -44,14 +44,5 @@ xlg.end(function(err,result){
         }
         fs.writeFileSync('./testBlob.xls',buffer,{flags:'w'});
         return;
-        var ws = fs.createWriteStream('./testBlob.xls', {flags:'w'});
-        ws.on('finish', function(){
-            console.log('complete');
-        });
-        ws.on('error', function(err){console.log('ws:',err.message)});
-        ws.on('open', function(){
-            ws.write(new Buffer(result));
-            ws.end();
-        });
     }
 });
