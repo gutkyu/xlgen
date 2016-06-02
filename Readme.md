@@ -115,8 +115,8 @@ try{
 }
 
 xlg.end(function(err){
-   if(err) console.log(err.name, err.message);
-   else console.log('complete');
+   if(err) return console.log(err.name, err.message);
+   console.log('complete');
 });
 ```
 
@@ -124,4 +124,4 @@ xlg.end(function(err){
   [[MS-XLS]: Excel Binary File Format (.xls) Structure](http://msdn.microsoft.com/en-us/library/cc313154(v=office.14).aspx)
 
 ## License
-MIT
+MIT, Copyright (c) 2014 Sangkyu Jung <gutkyu@gmail.com>

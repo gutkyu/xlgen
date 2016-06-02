@@ -100,11 +100,11 @@ try{
 }
 
 xlg.end(function(err){
-   if(err) console.log(err.name, err.message);
-   else console.log('complete');
+   if(err) return console.log(err.name, err.message);
+   console.log('complete');
 });
 ```
 
 
 ## License
-MIT
+MIT, Copyright (c) 2014 Sangkyu Jung <gutkyu@gmail.com>
