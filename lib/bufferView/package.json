@@ -1,0 +1,4 @@
+{
+    "name" : "bufferView",
+    "main" : "./bufferViewByBuffer" 
+}

@@ -32,6 +32,6 @@ try{
 }
 
 xlg.end(function(err){
-	if(err) console.log(err.name, err.message);
-	else console.log('complete');
+	if(err) return console.log(err.name, err.message);
+	console.log('complete');
 });

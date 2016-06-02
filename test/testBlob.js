@@ -1,7 +1,8 @@
-var blobGen = require('../lib/blobGenerator');
+var blobGen = require('./testBlobGen');
+var blobBuf = require('../lib/bufferView/bufferViewByArrayBuffer');
 var xl = require('../lib/xlgen');
 
-var xlg = xl.createXLGen('./test.xls',{binGenerator : blobGen});
+var xlg = xl.createXLGen('./testBlob.xls',{binGenerator : blobGen, BufferView : blobBuf});
 
 var fmtDate0 = xlg.addFormat(xl.formatStrings.date0);
 var fmtDate1 = xlg.addFormat(xl.formatStrings.date1);
@@ -35,14 +36,8 @@ xlg.end(function(err,result){
 	if(err){ return console.log(err);}
 	else {
         console.log('result type : ',result instanceof ArrayBuffer ? 'ArrayBuffer':'Object');
-        console.log('result.length:',result.byteLength);
-        var fs = require('fs');
-        var buffer = new Buffer(result.byteLength);
-        var bfdv = new Uint8Array (result);
-        for(var i =0; i < result.byteLength;i++){
-            buffer[i] = bfdv[i];
-        }
-        fs.writeFileSync('./testBlob.xls',buffer,{flags:'w'});
-        return;
+        var resultLen = result.length ? result.length : result.byteLength;
+        console.log('result.length:',resultLen);
+    	console.log('complete');
     }
 });
